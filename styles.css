@@ -22,6 +22,7 @@
 @media screen and (max-width: 400px) {
 	.card {
 		width: fit-content;
+		transform: scale(0.9);
 	}
 
 }
