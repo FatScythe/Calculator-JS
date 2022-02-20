@@ -33,7 +33,8 @@ buttons.forEach((button) => {
 			try {
 				display.innerText = eval(display.innerText);
 			} catch {
-				alert('Not a valid operation');
+				display.innerText = 'Error!'; 
+				// alert('Not a valid operation!') ;
 			}
 			break;
 			
